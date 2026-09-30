@@ -1,0 +1,8 @@
+PASOS PARA PREDECIR UN VALOR: FUNCION DE COSTE - DESDENSO DE GRADIENTE - USAR THETA OPTIMA
+
+MULTIVARIABLE: 
+	- no hace cambiar nada de mi función de coste (solo cambiamos X y Theta) ya que hemos vectorizado la función
+	- con la función de gradiente pasa lo mismo, al estar vectorizado nos ahorramos la modificación
+	- NORMALIZAR LOS DATOS: cuando tengo atributos en escalas distintas, el paso a seguir es escalar los atributos (normalizar o 					estandarización), en este caso usamos la estandarización (0-1). 
+				Formula de la estandarización -> copiarla 
+				
