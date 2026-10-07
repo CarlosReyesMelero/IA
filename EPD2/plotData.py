@@ -39,8 +39,8 @@ def plotIterationsVsCost(J_history, alpha):
 
 
 def plotData_linearRegression(X, y, theta):
-    plt.scatter(x=X['poblacion'], y=y, marker="x", c="red", label="Training data")
-    plt.plot(X['poblacion'], np.dot(X, theta), c='blue', label="Linear regression") # h  -> mi modelo
+    plt.scatter(x=X['Poblacion'], y=y, marker="x", c="red", label="Training data")
+    plt.plot(X['Poblacion'], np.dot(X, theta), c='blue', label="Linear regression") # h  -> mi modelo
     plt.xlabel("Population of City in 10,000")
     plt.ylabel("Profit in $10,000")
     plt.xticks(np.arange(5, 26, 5))
